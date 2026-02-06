@@ -40,3 +40,17 @@ input{
     border: solid 2px black;
     width: 45%;
 }
+
+@media (max-width: 600px){
+    fieldset{
+        width: 95%;
+    }
+
+    .campo{
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 16px;
+    }
+}
