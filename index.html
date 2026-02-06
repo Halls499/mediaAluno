@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>CALCULO DA MÉDIA DE ALUNO(A)</h1>
+
+    <fieldset>
+    <div class="formulario">
+
+  <div class="campo">
+    <label for="nome">Nome do(a) aluno(a):</label>
+    <input type="text" id="nome">
+  </div>
+
+  <div class="campo">
+    <label for="mencao1">Menção 1 do(a) aluno(a):</label>
+    <input type="number" id="mencao1" min="0" max="10" step="0.1">
+  </div>
+
+  <div class="campo">
+    <label for="mencao2">Menção 2 do(a) aluno(a):</label>
+    <input type="number" id="mencao2" min="0" max="10" step="0.1">
+  </div>
+
+  <div class="campo">
+    <label for="mencao3">Menção 3 do(a) aluno(a):</label>
+    <input type="number" id="mencao3" min="0" max="10" step="0.1">
+  </div>
+
+  <div class="campo">
+    <label for="mencao4">Menção 4 do(a) aluno(a):</label>
+    <input type="number" id="mencao4" min="0" max="10" step="0.1">
+  </div>
+
+  <div class="campo">
+    <label for="media">Média do(a) aluno(a):</label>
+    <input type="text" id="media" disabled>
+  </div>
+
+  <div class="campo">
+    <label for="situacao">Situação do(a) aluno(a):</label>
+    <input type="text" id="situacao" disabled>
+  </div>
+
+  <button onclick="Cadastro()">Calcular média</button>
+  <button onclick="Limpar()">Limpar formulário</button>
+</div>
+</fieldset>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
