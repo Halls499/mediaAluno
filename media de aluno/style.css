@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+fieldset{
+    border: solid 5px black;
+    width: 60%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: auto;
+}
+
+.formulario{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.campo{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+button{
+    font-size: 20px;
+    background-color: black;
+    border: solid 2px black;
+    color: white;
+}
+
+input{
+    background-color: white;
+    border: solid 2px black;
+    width: 45%;
+}
